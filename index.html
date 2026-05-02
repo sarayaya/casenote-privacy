@@ -4,102 +4,236 @@
 <meta charset="UTF-8">
 <title>Privacy Policy - CaseNote</title>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
 <style>
+* {
+    box-sizing: border-box;
+}
+
 body {
-    font-family: -apple-system, BlinkMacSystemFont, Arial;
-    line-height: 1.6;
-    max-width: 800px;
-    margin: auto;
-    padding: 20px;
-    color: #333;
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "SF Pro Display", "PingFang SC", "Helvetica Neue", Arial, sans-serif;
+    background: #f5f5f7;
+    color: #1d1d1f;
+    line-height: 1.75;
 }
-h1, h2 {
-    color: #000;
+
+.hero {
+    background: linear-gradient(180deg, #ffffff 0%, #f5f5f7 100%);
+    text-align: center;
+    padding: 80px 24px 56px;
 }
-hr {
-    margin: 30px 0;
+
+.hero h1 {
+    font-size: 46px;
+    line-height: 1.1;
+    margin: 0 0 18px;
+    font-weight: 700;
+    letter-spacing: -0.02em;
+}
+
+.hero p {
+    max-width: 720px;
+    margin: 0 auto;
+    font-size: 18px;
+    color: #6e6e73;
+}
+
+.container {
+    max-width: 980px;
+    margin: 0 auto;
+    padding: 24px;
+}
+
+.card {
+    background: #ffffff;
+    border-radius: 28px;
+    padding: 38px;
+    margin-bottom: 28px;
+    box-shadow: 0 8px 30px rgba(0,0,0,0.04);
+}
+
+h2 {
+    font-size: 30px;
+    margin: 0 0 24px;
+    letter-spacing: -0.01em;
+}
+
+h3 {
+    font-size: 22px;
+    margin: 28px 0 8px;
+}
+
+p {
+    margin: 8px 0;
+    font-size: 16px;
+}
+
+ul {
+    padding-left: 22px;
+    margin-top: 8px;
+}
+
+li {
+    margin: 6px 0;
+}
+
+.notice {
+    background: #f5f5f7;
+    border-radius: 18px;
+    padding: 18px 20px;
+    margin-top: 18px;
+    font-weight: 600;
+}
+
+.footer {
+    text-align: center;
+    color: #86868b;
+    font-size: 14px;
+    padding: 30px 20px 50px;
+}
+
+@media (max-width: 640px) {
+    .hero {
+        padding: 56px 20px 38px;
+    }
+
+    .hero h1 {
+        font-size: 34px;
+    }
+
+    .hero p {
+        font-size: 16px;
+    }
+
+    .container {
+        padding: 16px;
+    }
+
+    .card {
+        padding: 26px;
+        border-radius: 22px;
+    }
+
+    h2 {
+        font-size: 26px;
+    }
 }
 </style>
 </head>
 
 <body>
 
-<h1>Privacy Policy / 隐私政策</h1>
+<section class="hero">
+    <h1>Privacy Policy<br>隐私政策</h1>
+    <p>
+        This page provides both Chinese and English versions of the Privacy Policy.<br>
+        本页面提供中英文双语版本的隐私政策。
+    </p>
+</section>
 
-<p>
-This page provides both Chinese and English versions of the Privacy Policy.<br>
-本页面提供中英文双语版本的隐私政策。
-</p>
+<main class="container">
 
-<hr>
+<section class="card">
+    <h2>中文版本</h2>
 
-<h2>中文版本</h2>
+    <p>本应用（CaseNote）高度重视用户隐私与数据安全。</p>
 
-<p><strong>1. 数据存储方式</strong><br>
-所有病例数据仅保存在用户设备本地。开发者不会收集、上传、访问或共享用户录入的任何病例数据或个人信息。
-</p>
+    <h3>1. 数据存储方式</h3>
+    <p>所有病例数据仅保存在用户设备本地。</p>
+    <p>开发者不会收集、上传、访问或共享用户录入的任何病例数据或个人信息。</p>
 
-<p><strong>2. 数据收集与使用</strong><br>
-本应用不收集、不存储、不分析任何用户的个人身份信息。所有信息仅用于用户本人在设备上的记录与查看。
-</p>
+    <h3>2. 数据收集与使用</h3>
+    <p>本应用不收集、不存储、不分析任何用户的个人身份信息。</p>
+    <p>所有信息仅用于用户本人在设备上的记录与查看。</p>
 
-<p><strong>3. 权限说明</strong><br>
-相机：拍摄图片；相册：选择图片；通知：提醒功能。所有权限仅用于本地功能。
-</p>
+    <h3>3. 权限说明</h3>
+    <p>本应用可能会请求以下系统权限：</p>
+    <ul>
+        <li>相机权限：用于拍摄图片并记录学习笔记</li>
+        <li>相册权限：用于选择图片导入记录</li>
+        <li>通知权限：用于提醒功能（如随访提醒）</li>
+    </ul>
+    <p>所有权限均仅用于本地功能，不涉及数据上传。</p>
 
-<p><strong>4. 数据安全</strong><br>
-所有数据存储在本地设备，并受系统安全机制保护。
-</p>
+    <h3>4. 数据安全</h3>
+    <p>所有数据均存储于设备本地，并受操作系统安全机制（如沙盒机制）保护，仅用户本人可访问。</p>
 
-<p><strong>5. 第三方服务</strong><br>
-本应用不使用任何第三方数据服务。
-</p>
+    <h3>5. 第三方服务</h3>
+    <p>本应用不接入任何第三方数据分析、广告或数据收集服务。</p>
 
-<p><strong>6. 使用性质说明（重要）</strong><br>
-仅供医疗专业人士用于学习、记录与病例管理。<br>
-不用于诊断或治疗患者，不作为临床决策依据。<br>
-不替代医院系统。<br>
-<strong>仅用于医生个人学习，不提供医疗建议。</strong>
-</p>
+    <h3>6. 使用性质说明（重要声明）</h3>
+    <p>本应用仅供医疗专业人士用于学习、记录与病例管理。</p>
+    <ul>
+        <li>不用于直接诊断或治疗患者</li>
+        <li>不作为临床决策依据</li>
+        <li>不替代医院信息系统（HIS / PACS 等）</li>
+    </ul>
 
-<p><strong>7. 联系方式</strong><br>
-chenjiaosc@hotmail.com
-</p>
+    <div class="notice">
+        本应用仅用于医生个人学习与病例管理，不提供任何医疗建议。
+    </div>
 
-<hr>
+    <h3>7. 隐私政策更新</h3>
+    <p>如本隐私政策发生更新，将在本页面进行说明。</p>
 
-<h2>English Version</h2>
+    <h3>8. 联系方式</h3>
+    <p>chenjiaosc@hotmail.com</p>
+</section>
 
-<p><strong>1. Data Storage</strong><br>
-All case data is stored locally on your device. The developer does not collect, upload, access, or share any user data.
-</p>
+<section class="card">
+    <h2>English Version</h2>
 
-<p><strong>2. Data Collection</strong><br>
-This app does not collect or store any personal data.
-</p>
+    <p>CaseNote respects your privacy and is committed to protecting your data.</p>
 
-<p><strong>3. Permissions</strong><br>
-Camera, Photo Library, Notifications — used only for local functionality.
-</p>
+    <h3>1. Data Storage</h3>
+    <p>All case data is stored locally on your device.</p>
+    <p>The developer does not collect, upload, access, or share any user-entered case data or personal information.</p>
 
-<p><strong>4. Data Security</strong><br>
-All data is protected by system security mechanisms.
-</p>
+    <h3>2. Data Collection and Use</h3>
+    <p>This app does not collect, store, or analyze any personal data.</p>
+    <p>All information is used solely for local recording and viewing by the user.</p>
 
-<p><strong>5. Third-Party Services</strong><br>
-No third-party analytics or ads.
-</p>
+    <h3>3. Permissions</h3>
+    <p>The app may request the following permissions:</p>
+    <ul>
+        <li>Camera: to capture images for notes</li>
+        <li>Photo Library: to select images</li>
+        <li>Notifications: to provide reminders, such as follow-ups</li>
+    </ul>
+    <p>These permissions are used strictly for local functionality only.</p>
 
-<p><strong>6. Intended Use</strong><br>
-For medical professionals only.<br>
-Not for diagnosis or treatment.<br>
-Not a clinical decision tool.<br>
-<strong>No medical advice provided.</strong>
-</p>
+    <h3>4. Data Security</h3>
+    <p>All data is stored locally and protected by the operating system’s security mechanisms, such as sandboxing.</p>
+    <p>Only the user can access their data.</p>
 
-<p><strong>7. Contact</strong><br>
-chenjiaosc@hotmail.com
-</p>
+    <h3>5. Third-Party Services</h3>
+    <p>This app does not use any third-party analytics, advertising, or data collection services.</p>
+
+    <h3>6. Intended Use</h3>
+    <p>This app is intended for use by medical professionals for learning, documentation, and case management purposes only.</p>
+    <ul>
+        <li>Not intended for direct patient diagnosis or treatment</li>
+        <li>Not a clinical decision-making tool</li>
+        <li>Not a replacement for hospital systems, such as HIS or PACS</li>
+    </ul>
+
+    <div class="notice">
+        This app is for personal learning and case management only and does not provide medical advice.
+    </div>
+
+    <h3>7. Updates to This Policy</h3>
+    <p>Any updates to this Privacy Policy will be reflected on this page.</p>
+
+    <h3>8. Contact</h3>
+    <p>chenjiaosc@hotmail.com</p>
+</section>
+
+</main>
+
+<footer class="footer">
+    © CaseNote. All rights reserved.
+</footer>
 
 </body>
 </html>
