@@ -139,13 +139,14 @@ li {
 
     <p>本应用（CaseNote）高度重视用户隐私与数据安全。</p>
 
-    <h3>1. 数据存储方式</h3>
-    <p>所有病例数据仅保存在用户设备本地。</p>
-    <p>开发者不会收集、上传、访问或共享用户录入的任何病例数据或个人信息。</p>
+    <h3>1. 数据存储与同步</h3>
+    <p>所有病例数据默认保存在用户设备本地。</p>
+    <p>在用户主动开启iCloud同步功能的情况下，数据将通过Apple提供的iCloud服务在用户的设备之间进行同步。</p>
+    <p>开发者不会访问、收集、存储或共享用户的任何病例数据或个人信息。</p>
 
     <h3>2. 数据收集与使用</h3>
     <p>本应用不收集、不存储、不分析任何用户的个人身份信息。</p>
-    <p>所有信息仅用于用户本人在设备上的记录与查看。</p>
+    <p>所有信息仅用于用户本人在其设备及其 iCloud 账户关联设备上的记录与查看。</p>
 
     <h3>3. 权限说明</h3>
     <p>本应用可能会请求以下系统权限：</p>
@@ -154,13 +155,16 @@ li {
         <li>相册权限：用于选择图片导入记录</li>
         <li>通知权限：用于提醒功能（如随访提醒）</li>
     </ul>
-    <p>所有权限均仅用于本地功能，不涉及数据上传。</p>
+    <p>所有权限仅用于本地功能或iCloud同步，不涉及开发者的数据收集或上传。</p>
 
     <h3>4. 数据安全</h3>
-    <p>所有数据均存储于设备本地，并受操作系统安全机制（如沙盒机制）保护，仅用户本人可访问。</p>
+    <p>所有数据均受 Apple 操作系统安全机制（如沙盒机制）保护。</p>
+    <p>通过 iCloud 同步的数据由 Apple 提供加密与安全保障，开发者无法访问。</p>
+    <p>仅用户本人可通过其设备或其 iCloud 账户访问数据。</p>
 
     <h3>5. 第三方服务</h3>
     <p>本应用不接入任何第三方数据分析、广告或数据收集服务。</p>
+    <p>iCloud 同步服务由 Apple 提供，受 Apple 隐私政策约束。</p>
 
     <h3>6. 使用性质说明（重要声明）</h3>
     <p>本应用仅供医疗专业人士用于学习、记录与病例管理。</p>
@@ -186,13 +190,14 @@ li {
 
     <p>CaseNote respects your privacy and is committed to protecting your data.</p>
 
-    <h3>1. Data Storage</h3>
-    <p>All case data is stored locally on your device.</p>
-    <p>The developer does not collect, upload, access, or share any user-entered case data or personal information.</p>
+    <h3>1. Data Storage and Sync</h3>
+    <p>All case data is stored locally on your device by default.</p>
+    <p>If iCloud sync is enabled by the user, data may be synchronized across the user’s devices via Apple’s iCloud service.</p>
+    <p>The developer does not collect, access, store, or share any user-entered case data or personal information.</p>
 
     <h3>2. Data Collection and Use</h3>
     <p>This app does not collect, store, or analyze any personal data.</p>
-    <p>All information is used solely for local recording and viewing by the user.</p>
+    <p>All information is used solely for recording and viewing by the user on their device and devices linked to their iCloud account.</p>
 
     <h3>3. Permissions</h3>
     <p>The app may request the following permissions:</p>
@@ -201,14 +206,16 @@ li {
         <li>Photo Library: to select images</li>
         <li>Notifications: to provide reminders, such as follow-ups</li>
     </ul>
-    <p>These permissions are used strictly for local functionality only.</p>
+    <p>These permissions are used strictly for local functionality or iCloud sync and do not involve any data collection by the developer.</p>
 
     <h3>4. Data Security</h3>
-    <p>All data is stored locally and protected by the operating system’s security mechanisms, such as sandboxing.</p>
-    <p>Only the user can access their data.</p>
+    <p>All data is protected by Apple’s operating system security mechanisms, such as sandboxing.</p>
+    <p>Data synchronized via iCloud is encrypted and secured by Apple. The developer has no access to this data.</p>
+    <p>Only the user can access their data via their devices or iCloud account.</p>
 
     <h3>5. Third-Party Services</h3>
     <p>This app does not use any third-party analytics, advertising, or data collection services.</p>
+    <p>iCloud is a service provided by Apple and is subject to Apple’s own privacy policies.</p>
 
     <h3>6. Intended Use</h3>
     <p>This app is intended for use by medical professionals for learning, documentation, and case management purposes only.</p>
