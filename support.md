@@ -12,7 +12,7 @@ CaseNote is a case study note-taking tool that helps users efficiently record, o
 - 典型影像资料归档 / Image archiving
 - 复习计划与提醒 / Review plans and reminders
 - 常用医学公式速查 / Medical formula calculator
-- 学习统计分析 / Study statistics
+- 数据统计分析 / Analytics
 - iCloud云端同步 / iCloud sync
 - 中英双语界面 / Chinese & English interface
 
@@ -26,7 +26,7 @@ All data is stored locally on your device and in your own iCloud account. We do 
 
 **Q: 如何备份数据？/ How to back up data?**
 
-A: 打开设置页面，使用"备份与恢复"功能即可导出备份文件。开启iCloud同步后，数据也会自动同步到云端。
+A: 打开设置页面，使用"备份与恢复"功能即可导出备份文件。开启iCloud同步后，数据也会自动同步。
 
 Go to Settings and use the "Backup & Restore" feature to export a backup file. With iCloud sync enabled, your data will also sync automatically.
 
